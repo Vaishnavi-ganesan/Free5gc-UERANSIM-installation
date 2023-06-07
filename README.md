@@ -181,7 +181,7 @@ In terminal 2, SSH into ueransim, and execute nr-ue with admin right:
 cd ~/UERANSIM
 sudo build/nr-ue -c config/free5gc-ue.yaml
 ```
-In terminal 3, SSH into ueransim, and ping 192.168.56.101 to see free5gc is alive. Then, use ifconfig to see if the tunnel uesimtun0 has been created (by nr-ue):
+In terminal 3, SSH into ueransim, and ping 192.168.60.187 to see free5gc is alive. Then, use ifconfig to see if the tunnel uesimtun0 has been created (by nr-ue):
 Now use ping:
 `ping -I uesimtun0 google.com`
 If ping gets replies, then free5GC is running properly. Congratulations!
